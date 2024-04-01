@@ -3,6 +3,7 @@ import Header from '@/components/header' // using @ bc in tsconfig we have @/* =
 import Intro from '@/components/intro'
 import './globals.css'
 import { Inter } from 'next/font/google'
+import SmoothScrolling from "@/components/smoothScrolling";
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -26,13 +27,15 @@ export default function RootLayout({
             rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem]">
         </div>
         <Header/>        
+        {/* <SmoothScrolling> */}
         {children}
+        {/* </SmoothScrolling> */}
       </body>
     </html>
   )
 }
 
-// important:   pt-28 sm:pt-36; because the header is fixed, the image will not see it when positioning, so add padding at the top
+// important: pt-28 sm:pt-36; because the header is fixed, the image will not see it when positioning, so add padding at the top
 // children prop is the page.tsx
 // absolute: This positions the div absolutely relative to the nearest positioned ancestor. If there isn't one,
 // it's placed relative to the initial containing block (usually the viewport or the html element)
