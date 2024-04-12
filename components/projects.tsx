@@ -1,6 +1,7 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import SectionHeading from './section-heading'
 import { projectsData } from '@/lib/data'
+import Project from './project'
 
 export default function Projects() {
   return (
@@ -16,11 +17,4 @@ export default function Projects() {
     </section>
   );
 }
-
-type ProjectProps = typeof projectsData[number];
-
-function Project({ title, description, tags, imageUrl }:
-    ProjectProps
-) {
-    return <div>{title}</div>
-}
+ 
