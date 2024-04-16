@@ -8,8 +8,11 @@ import { useActiveSectionContext } from "@/context/active-section-context";
 // import { useSectionInView } from "@/lib/hooks";
 
 export default function About() {
-  const { ref, inView } = useInView();
+  const { ref, inView } = useInView({
+    threshold: 0.75
+  });
   const { setActiveSection } = useActiveSectionContext();
+  console.log(inView);
   
   useEffect(() => {
     if (inView) {
