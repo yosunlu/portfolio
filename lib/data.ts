@@ -4,6 +4,7 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import onlymemesImg from "@/public/onlymemes.png";
 import externalImg from "@/public/external.png";
+import othelloImg from "@/public/othello.png";
 
 export const links = [
   {
@@ -34,28 +35,28 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Investment Banking Analyst - JPMorgan",
+    location: "Taipei, Taiwan",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Graduated as an Economic major, joined JPMorgan, and worked 20 hours a day, only to find out I am not into baking.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2018-2020",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Senior Engineer - ADLINK Technology",
+    location: "Taipei, Taiwan",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Spent a year surfing, and  decided to make a career switch and got into tech.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2021 - 2022",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Computer Science Master",
+    location: "Madison Wisconsin",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Discovered my passion in coding, and decided to pursue a CS master.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2022 - present",
   },
 ] as const;
 
@@ -63,15 +64,22 @@ export const projectsData = [
   {
     title: "Onlymemes",
     description:
-      "Allows user to sign in with google account and upload their favorite memes in the form of video.",
+      "Full-stack video processing service that allows user to sign in with google account and upload their favorite memes in the form of video. NOT some random youtube clone!",
     tags: ["TypeScript", "React.js", "Node.js", "Firebase"],
     imageUrl: onlymemesImg,
+  },
+  {
+    title: "Othello AI",
+    description:
+      "Full-stack online board game that leverages Alpha-beta pruning and MonteCarlo tree search algorithms to enable PvP and step-optimization features.",
+    tags: ["Python", "MySQL", "FastAPI", "Pytest", 'Docker'],
+    imageUrl: othelloImg,
   },
   {
     title: "External Merge Sort",
     description:
       "Implements an external merge sort and emulates SSD, HDD, CPU, and DRAM to sort 120 GB of data",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+    tags: [],
     imageUrl: externalImg,
   },
 ] as const;
@@ -86,14 +94,11 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
   "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
   "Framer Motion",
+  "Docker",
+  "Cassandra",
+  "Spark",
+  "HDFS",
+  "Kafka",
 ] as const;

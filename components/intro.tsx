@@ -49,9 +49,8 @@ export default function Intro() {
             initial = {{opacity: 0, y: 100}}
             animate = {{opacity: 1, y: 0}}>
 
-          <span className='font-bold'>Hi there! I'm Yushan.</span>  I am currently a graudatue studentat UW-Madison studying Computer Science. 
-              My interests lie in <span className='font-bold'>full-stack development </span> and
-            <span className='font-bold'> Data Engineering</span>.
+          <span className='font-bold'>Hi there! I'm Yushan.</span>  I am a <span className='font-bold'>full-stack developer</span> and a graduate student, currently studying Computer Science at UW-Madison. 
+              
           </motion.h1>
           
           <motion.div className='flex flex-col sm:flex-row justify-center gap-2 px-4 text-lg font-medium'
@@ -68,13 +67,13 @@ export default function Intro() {
             </Link>
             
             <a className='group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110  
-            active:scale-105 transition cursor-pointer border border-black/20' href='/CV.pdf' download>Download CV 
+            active:scale-105 transition cursor-pointer border border-black/20 dark:bg-white/10 dark:text-white/60' href='/CV.pdf' download>Download CV 
             <HiDownload className='opacity-60 group-hover:translate-y-1 transition '/></a>
             
             <a className='bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950  
-            active:scale-105 transition cursor-pointer border border-black/20' href='https://www.linkedin.com/in/yushanlu1031/' target='_blank'><BsLinkedin/></a>
+            active:scale-105 transition cursor-pointer border border-black/20 dark:bg-white/10 dark:text-white/60' href='https://www.linkedin.com/in/yushanlu1031/' target='_blank'><BsLinkedin/></a>
             <a className='bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full text-[1.35rem] focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950  
-            active:scale-105 transition cursor-pointer border border-black/20' href='https://github.com/yosunlu' target='_blank'><FaGithubSquare /></a>
+            active:scale-105 transition cursor-pointer border border-black/20 dark:bg-white/10 dark:text-white/60' href='https://github.com/yosunlu' target='_blank'><FaGithubSquare /></a>
           </motion.div>
         </div>
     </section>
