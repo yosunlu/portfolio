@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import onlymemesImg from "@/public/onlymemes.png";
 import externalImg from "@/public/external.png";
 import othelloImg from "@/public/othello.png";
+import portfolioImg from "@/public/portfolio.png";
 
 export const links = [
   {
@@ -75,6 +76,14 @@ export const projectsData = [
     tags: ["Python", "MySQL", "FastAPI", "Pytest", 'Docker'],
     imageUrl: othelloImg,
   },
+  {
+    title: "Portfolio",
+    description:
+      "This beautiful portfolio.",
+    tags: ["Next.js","Typescipt", "React.js", "Framer motion", "Tailwind CSS"],
+    imageUrl: portfolioImg,
+  },
+
   {
     title: "External Merge Sort",
     description:
