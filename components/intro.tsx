@@ -49,8 +49,7 @@ export default function Intro() {
             initial = {{opacity: 0, y: 100}}
             animate = {{opacity: 1, y: 0}}>
 
-          <span className='font-bold'>Hi there! I&apos;m Yushan.</span>  I am a <span className='font-bold'>full-stack developer</span> and a graduate student, currently studying Computer Science at UW-Madison. 
-              
+          <span className='font-bold'>Hi there! I&apos;m Yushan.</span>  I am a <span className='font-bold'>full-stack developer</span> and currently a graduate student in Computer Science at the University of Wisconsin-Madison. 
           </motion.h1>
           
           <motion.div className='flex flex-col sm:flex-row justify-center gap-2 px-4 text-lg font-medium'

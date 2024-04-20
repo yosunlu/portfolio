@@ -26,17 +26,16 @@ export default function About() {
         feeling of finally figuring out a solution to a problem. My core stack
         is{" "}
         <span className="font-medium">
-          React, Next.js, Node.js
+          React, Next.js, Node.js, TypeScript, and Python.
         </span>
-        . I am also familiar with TypeScript. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
+         {" "}I am currently looking for a{" "}
         <span className="font-medium">full-time position</span> as a software
         developer.
       </p>
 
       <p>
-        <span className="italic">When I&apos;m not coding</span>, I enjoy
-        surfing, watching movies, and cooking.
+        <span className="italic">When I am not learning something new</span>, I enjoy
+        surfing, watching movies, and cooking. I am also a huge fan of <span className="font-medium"> Taiwanese indie music</span>!
       </p>
     </motion.section>
   );
