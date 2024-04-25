@@ -95,7 +95,7 @@ export const projectsData = [
   ,
 
   {
-    title: "External Merge Sort",
+    title: "Large Scale External Merge Sort",
     description:
       "Implements an external merge sort and emulates SSD, HDD, CPU, and DRAM to sort 120 GB of data.",
     tags: [],
