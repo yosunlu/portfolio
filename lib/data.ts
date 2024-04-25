@@ -6,6 +6,7 @@ import onlymemesImg from "@/public/onlymemes.png";
 import externalImg from "@/public/external.png";
 import othelloImg from "@/public/othello.png";
 import portfolioImg from "@/public/portfolio.png";
+import cassandraImg from "@/public/Cassandra.png";
 
 export const links = [
   {
@@ -83,6 +84,15 @@ export const projectsData = [
     tags: ["Next.js","Typescipt", "React.js", "Framer motion", "Tailwind CSS"],
     imageUrl: portfolioImg,
   },
+
+  {
+    title: "Cassandra-based Weather Data Platform",
+    description:
+      "Collects weather data from NOAA, stores this data in Cassandra, writes a server for data collection, and analyzes the collected data via Spark.",
+    tags: [],
+    imageUrl: cassandraImg,
+  }
+  ,
 
   {
     title: "External Merge Sort",
