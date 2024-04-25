@@ -89,7 +89,7 @@ export const projectsData = [
     title: "Cassandra-based Weather Data Platform",
     description:
       "Collects weather data from NOAA, stores this data in Cassandra, writes a server for data collection, and analyzes the collected data via Spark.",
-    tags: [],
+    tags: ["Cassandra", "Spark"],
     imageUrl: cassandraImg,
   }
   ,
