@@ -54,7 +54,7 @@ export const experiencesData = [
   },
   {
     title: "Computer Science Master",
-    location: "Madison Wisconsin",
+    location: "Madison, Wisconsin",
     description:
       "Discovered my passion in coding, and decided to pursue a CS master.",
     icon: React.createElement(FaReact),
@@ -66,7 +66,7 @@ export const projectsData = [
   {
     title: "Onlymemes",
     description:
-      "Full-stack video processing service that allows user to sign in with google account and upload their favorite memes in the form of video. NOT some random youtube clone!",
+      "Full-stack video processing service that allows user to sign in with google account and upload their favorite meme videos. NOT some random youtube clone!",
     tags: ["TypeScript", "React.js", "Node.js", "Firebase"],
     imageUrl: onlymemesImg,
   },
@@ -97,7 +97,7 @@ export const projectsData = [
   {
     title: "External Merge Sort",
     description:
-      "Implements an external merge sort and emulates SSD, HDD, CPU, and DRAM to sort 120 GB of data",
+      "Implements an external merge sort and emulates SSD, HDD, CPU, and DRAM to sort 120 GB of data.",
     tags: [],
     imageUrl: externalImg,
   },
